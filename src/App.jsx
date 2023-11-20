@@ -1,15 +1,13 @@
-import { Services } from "./components/Services";
-import { Footer } from "./components/Footer";
-import { Header } from "./components/Header";
+import {DemoPage} from "./pages/Demo";
+import {HomePage} from "./pages/Home";
 
 
 function App() {
   return (
-   <div>
-    <Header/>
-    <Services/>
-    <Footer/>
-   </div>
+   <>
+    <DemoPage />
+    <HomePage />
+   </>
   );
 }
 
