@@ -1,5 +1,5 @@
 import {FaTwitter, FaInstagram, FaFacebook} from 'react-icons/fa';
-import dog from './dog.svg';
+import dog from '../components/dog.svg';
 
 
 export function Footer() {
