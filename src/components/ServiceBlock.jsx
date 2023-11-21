@@ -2,7 +2,7 @@ import { FaAngleRight } from "react-icons/fa";
 
 
 export function ServiceBlock({data}) {
-const { icon, title, description, link } = data;
+const { icon, title, description, link, price } = data;
 
     return (
         <div className="feature col">
@@ -10,6 +10,7 @@ const { icon, title, description, link } = data;
            {icon}
         </div>
         <h3 className="fs-2 text-body-emphasis">{title}</h3>
+        <p>{price} 00 EUR </p>
         <p>{description}</p>
         <a href={link} className="icon-link">
             Read more <FaAngleRight/>

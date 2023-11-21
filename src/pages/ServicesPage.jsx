@@ -7,7 +7,8 @@ export function ServicesPage() {
         <>
             <Header />
             <main>
-                <Services />
+                <Services sortBy="titleAZ" limit={5}/>
+
             </main>
             <Footer />
         </>
