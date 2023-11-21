@@ -1,6 +1,6 @@
-import { Footer } from "../components/Footer";
-import { Header } from "../components/Header";
-import { Services } from "../components/Services";
+import { Footer } from "../sections/Footer";
+import { Header } from "../sections/Header";
+import { Services } from "../sections/Services";
 
 export function HomePage() {
     return (
