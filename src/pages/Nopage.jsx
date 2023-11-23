@@ -18,8 +18,7 @@ export function NoPage() {
                     </div>
                 </div>
             </div>
-            <Footer />
-                    {/* <div className="col-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cumque saepe id corrupti asperiores eos dolores illum distinctio dolor dolore, consequatur qui commodi repudiandae culpa iure voluptate ipsa! Eius earum ullam temporibus facilis eum nostrum dolorem doloremque enim consectetur doloribus animi quas voluptatem blanditiis repudiandae excepturi aperiam quo, ad beatae.</div> */}
+            <Footer/>
         </>
     );
 }

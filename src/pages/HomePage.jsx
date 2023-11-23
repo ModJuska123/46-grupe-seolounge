@@ -7,7 +7,7 @@ export function HomePage() {
         <>
             <Header />
             <main>
-                <Services />
+                <Services sortBy="titleAZ" limit={1}/>
             </main>
             <Footer />
         </>
