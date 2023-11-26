@@ -31,7 +31,7 @@ export function Fetch() {
         <div>
             <ul>
                 {data.map((item) => (
-                <li key={item.id}>{item.userId}, {item.title}</li>
+                <li key={item.id}>{item.id}, {item.userId}, {item.title}</li>
                 ))}
             </ul>
         </div>
