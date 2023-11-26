@@ -1,4 +1,5 @@
 import { HowCanWeHelp } from "../sections/HowCanWeHelp";
+import { Fetch } from "../sections/Fetch";
 import { Footer } from "../sections/Footer";
 import { Header } from "../sections/Header";
 import { Services } from "../sections/Services";
@@ -15,6 +16,7 @@ export function HomePage() {
                 <Services sortBy="titleAZ" limit={1}/>
                 <BusinessGrowth/>
                 <HowCanWeHelp />
+                <Fetch />
             </main>
             <Footer />
         </>
