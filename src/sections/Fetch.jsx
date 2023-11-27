@@ -38,3 +38,4 @@ export function Fetch() {
         </div>
     );
 }
+//Ref: https://www.google.com/search?sca_esv=585436030&rlz=1C1OKWM_enLT970LT970&sxsrf=AM9HkKn5p36OoHOBvD0ZvNk7R8hIyrUaQg:1701013767633&q=how+to+use+fetch+in+react&tbm=vid&source=lnms&sa=X&ved=2ahUKEwjLuoKLguKCAxVlSPEDHfcbBCQQ0pQJegQICxAB&biw=1280&bih=889&dpr=1#fpstate=ive&vld=cid:a1e4a7c2,vid:27f3B1qndW8,st:11
